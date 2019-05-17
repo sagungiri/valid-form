@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title></title>
+	<link rel="stylesheet" type="text/css" href="style.css">
+</head>
+<body>
+<form id="theForm" method="get" action="submitData" >
+		<table id="font">
+			<tr>
+				<td width="168">Name<span class="red">*</span></td>
+			  <td width="288"><input type="text" id="name" name="name" class="input1"/></td>
+				<td width="183" class="red" id="nameError">&nbsp;</td>
+			</tr>
+   
+			<tr>
+				<td>Address</td>
+				<td><input type="email" id="address" class="input1" /></td>
+				<td id="addressError" class="red">&nbsp;</td>
+			</tr>
+			
+			<tr>
+				<td>Pin Code<span class="red">*</span></td>
+				<td><input type="text" id="zipcode" name="zipcode" class="input1"/></td>
+				<td id="zipcodeError" class="red">&nbsp;</td>
+			</tr>
+		
+			<tr>
+				<td>Country<span class="red">*</span></td>
+				<td><select id="country" name="country" class="input1">
+						<option value="" selected>Please select...</option>
+						<option value="Nepal">Nepal</option>
+						<option value="India">India</option>
+						<option value="Pakistan">Pakistan</option>
+						<option value="Afganistan">Afganistan</option>
+						<option value="Australia">Australia</option>
+					</select><br /></td>
+				<td id="countryError" class="red">&nbsp;</td>
+			</tr>
+			<tr>
+				<td>Gender<span class="red">*</span></td>
+			  <td><p>
+			    <input type="radio" name="gender" value="m" />
+			    Male
+			    <input type="radio" name="gender" value="f" />
+		        Female</p>		      </td>
+				<td id="genderError" class="red">&nbsp;</td>
+			</tr>
+			<tr>
+				<td>Preferences<span class="red">*</span></td>
+			  <td><p>
+			    <input type="checkbox" name="color" value="r" />
+			    Red
+				<input type="checkbox" name="color" value="g" />
+		        Green
+		        <input type="checkbox" name="color" value="b" />
+		        Blue</p>		      </td>
+				<td id="colorError" class="red">&nbsp;</td>
+			</tr>
+			<tr>
+				<td>Phone<span class="red">*</span></td>
+				<td><input type="text" id="phone" name="phone" class="input1"/></td>
+				<td id="phoneError" class="red">&nbsp;</td></tr>
+			<tr>
+				<td>Email<span class="red">*</span></td>
+				<td><input type="text" id="email" name="email" class="input1"/></td>
+				<td id="emailError" class="red">&nbsp;</td>
+			</tr>
+			<tr>
+				<td>password <span class="red">*</span></td>
+				<td><input type="password" id="password" name="password" class="input1"/></td>
+				<td id="passwordError" class="red">&nbsp;</td>
+			</tr>
+			<tr>
+				<td>Verify password<span class="red">*</span></td>
+				<td><input type="password" id="pwVerified" name="pwVerified" class="input1"/></td>
+				<td id="pwVerifiedError" class="red">&nbsp;</td>
+			</tr>
+			<tr>
+				<td><input name="submit" type="submit" class="input1" id="submit" value="Submit"/></td>
+				<td><p>
+				    <input name="reset" type="reset" class="input1" id="reset" value="Reset"/>
+			        </p></td>
+				<td>&nbsp;</td></tr>
+    </table>
+</form>
+
+<script type="text/javascript" src="script.js"></script>
+</body>
+</html>

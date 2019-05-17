@@ -1,0 +1,39 @@
+
+body {
+	line-height: 1;
+	background-color:rgb(63, 234, 21);
+}
+.red {
+   color: red;
+}
+ 
+.input1{
+	width:200px;
+	height:30px;
+	padding:0px;
+	border:1px solid red;
+	border-radius:5px;
+}
+input.error{
+ 
+   width:200px;
+	height:30px;
+	padding:0px;
+	border:2px solid red;
+	border-radius:5px;
+}
+ 
+table {
+   border:0;
+   
+}
+ 
+td {
+   margin: 0;
+   padding: 3px 10px 3px 3px;
+}
+#font{
+	font-size:18;
+	color:black
+	
+}
